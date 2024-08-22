@@ -1,12 +1,11 @@
-x = float(input("type the grade: "))
-
+x1 = float(input("type the grade: "))
+x = int(x1)
 
 if x >= 75:
-    print("Passed ")
+    print(x, "Passed ")
 elif x > 74:
-      print("remedial!")
+      print(x, "remedial!")
 elif x < 74:
-        print("failed")
-
-type the grade: 90
-Passed
+        print(x, "failed")
+type the grade: 75.5
+75 passed
