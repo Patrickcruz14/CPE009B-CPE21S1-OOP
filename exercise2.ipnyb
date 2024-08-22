@@ -1,62 +1,12 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "authorship_tag": "ABX9TyODswyGqfeQ159WvAVRX2ay",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/Patrickcruz14/CPE009B-CPE21S1-OOP2/blob/main/exercise2.ipnyb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "execution_count": 1,
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "NApe5S44aSG_",
-        "outputId": "3b269a44-2666-42b0-d98b-34a46b2aa10c"
-      },
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "type the grade: 90\n",
-            "Passed \n"
-          ]
-        }
-      ],
-      "source": [
-        "x = float(input(\"type the grade: \"))\n",
-        "\n",
-        "\n",
-        "if x >= 75:\n",
-        "    print(\"Passed \")\n",
-        "elif x > 74:\n",
-        "      print(\"remedial!\")\n",
-        "elif x < 74:\n",
-        "        print(\"failed\")"
-      ]
-    }
-  ]
-}
+x = float(input("type the grade: "))
+
+
+if x >= 75:
+    print("Passed ")
+elif x > 74:
+      print("remedial!")
+elif x < 74:
+        print("failed")
+
+type the grade: 90
+Passed
